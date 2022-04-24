@@ -25,11 +25,12 @@
 }
 
 .callButton {
-  background-color: white;
+  /* background-color: none;
   border-radius: 50%;
   padding: 10px;
   width: 50px;
-  height: 50px;
+  height: 50px; */
+  
 }
 
 .texts {
@@ -43,7 +44,7 @@
 }
 
 .text:last-child {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -80,6 +81,10 @@
     color: #07575B;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width:480px) {
   .item:nth-child(2) {
     display: none;
@@ -88,4 +93,19 @@
   .item:nth-child(1) {
     flex: 3;
   }
-}
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+  }
+}  

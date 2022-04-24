@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <Image src="/img/telephone.png" alt="" width="32" height="32" />
+          <Image src="/img/telephone.png" alt="" width="50" height="32" />
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
@@ -28,6 +28,11 @@ const Navbar = () => {
         <div className={styles.cart}>
           <Image src="/img/cart.png" alt="" width="30px" height="30px" />
           <div className={styles.counter}>2</div>
+          {/* <div className={styles.hamburger}>            
+            <div className={styles.line}/>
+            <div className={styles.line}/>
+            <div className={styles.line}/>
+          </div> */}
         </div>
       </div>
     </div>
